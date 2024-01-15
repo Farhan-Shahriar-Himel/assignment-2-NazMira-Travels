@@ -4,10 +4,26 @@
     font-family: 'Mulish', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared items */
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.title {
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
 }
 
 header {
-    padding: 2% 5%;
+    padding: 3% 10%;
 }
 
 nav {
@@ -19,12 +35,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.title {
-    color: #131318;
-    font-size: 2.2rem;
-    font-weight: 800;
 }
 
 .title span {
@@ -64,4 +74,53 @@ ul > li > a.home-menu, a:hover{
 
 #three-line {
     display: none;
+}
+
+.bannar-section {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
+    margin-top: 50px;
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannar-content {
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+
+.bannar-heading {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.bannar-text {
+    margin-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bannar-inputs {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.bannar-inputs > input {
+    padding: 20px;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    margin-right: 5px;
 }
