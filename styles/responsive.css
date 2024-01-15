@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+        ul > li {
+            display: none;
+        }
+        #three-line {
+            display: flex;
+        }
+}
