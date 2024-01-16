@@ -37,4 +37,8 @@
         .primary-paragraph {
             font-size: 0.8rem;
         }
+        .photo-collage {
+            display: flex;
+            flex-direction: column;
+        }
 }
