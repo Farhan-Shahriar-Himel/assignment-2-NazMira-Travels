@@ -277,6 +277,8 @@ main {
 
 .best-deals {
     background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 3.8rem 3.8rem;
     margin-bottom: 1.2rem;
     display: flex;
@@ -286,6 +288,8 @@ main {
 
 #best-deals-exception {
     background-image: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: left;
 }
 
