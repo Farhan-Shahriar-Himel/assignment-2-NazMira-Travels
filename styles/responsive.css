@@ -1,9 +1,9 @@
 @media screen and (max-width: 600px) {
         .title {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
         .title>span {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }
         .menu > li {
             display: none;
@@ -77,6 +77,10 @@
 
         .inspiration-img > h3 {
             text-align: center;
+        }
+
+        .experience-card-container {
+            flex-direction: column;
         }
 
         .newsLetter-section {
