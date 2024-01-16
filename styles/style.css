@@ -380,6 +380,11 @@ main {
     transition: transform .3s ease-in;
 }
 
+.experience-card img {
+    height: 100px;
+    width: 90px;
+}
+
 .experience-card:hover {
     transform: scale(1.25);
     height: 100%;
