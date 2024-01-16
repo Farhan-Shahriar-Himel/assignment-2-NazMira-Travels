@@ -57,6 +57,10 @@
             width: 100%;
         }
 
+        .date-time-container > div {
+            flex-direction: column;
+        }
+
         .inspiration-section {
             flex-direction: column;
             gap: 1rem;

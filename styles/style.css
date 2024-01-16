@@ -293,6 +293,25 @@ main {
     backdrop-filter: blur(2.5px);
 }
 
+.date-time-container {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.discount-card div {
+    display: flex;
+    gap: 2rem;
+}
+
+.discount-card div p {
+    font-size: .8rem;
+    font-weight: 400;
+    color: #5A5A5D;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
 .price {
     color: #FF5400;
     font-size: 1.2;
