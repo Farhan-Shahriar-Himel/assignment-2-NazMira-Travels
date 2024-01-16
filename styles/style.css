@@ -381,7 +381,7 @@ main {
     background: linear-gradient(#fcf8f0, white);
     padding: 1rem;
     box-shadow: .5rem .5em 10px grey;
-    transition: transform .3s ease-in;
+    transition: transform .3s ease-in, height .3s ease;
 }
 
 .experience-card img {
@@ -391,7 +391,7 @@ main {
 
 .experience-card:hover {
     transform: scale(1.25);
-    height: 100%;
+    height: 450px;
 }
 
 .name {
