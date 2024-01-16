@@ -294,3 +294,96 @@ main {
     font-weight: 800;
     margin-bottom: 2rem;
 }
+
+.inspiration-section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inspiration-context {
+    width: 48%;
+}
+
+.inspiration-context ul {
+    padding: 5%
+}
+
+.inspiration-context li {
+    margin-bottom: 20px;
+}
+
+.inspiration-img {
+    background-image: url("../Images/Group\ 40089.png");
+    background-repeat: no-repeat;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.inspiration-img > h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.newsLetter-section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsLetter-form {
+    width: 44%;
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.input-button {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-button > input {
+    padding: 4%;
+    background-color: rgba(19, 19, 24, 0.05);
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.newsLetter-img {
+    background-image: url("../Images/Rectangle\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width: 52%;
+    position: relative;
+}
+
+.travel-card {
+    color: white;
+    width: 50%;
+    background-color: #FF5400;
+    text-align: center;
+    transform: rotate(-20deg);
+    border-radius: 1rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 2.5rem;
+    right: .2rem;
+}
+
+.travel-card > p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.travel-card > h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
