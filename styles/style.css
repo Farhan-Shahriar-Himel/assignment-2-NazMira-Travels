@@ -365,14 +365,24 @@ main {
 .experience-card-container {
     margin-top: 1.5rem;
     display: flex;
+    justify-content: space-around;
     gap: 1.5rem;
 }
 
 .experience-card {
     border-radius: 1rem;
+    width: 20%;
+    height: 12rem;
+    overflow: hidden;
     background: linear-gradient(#fcf8f0, white);
     padding: 1rem;
     box-shadow: .5rem .5em 10px grey;
+    transition: transform .3s ease-in;
+}
+
+.experience-card:hover {
+    transform: scale(1.25);
+    height: 100%;
 }
 
 .name {
