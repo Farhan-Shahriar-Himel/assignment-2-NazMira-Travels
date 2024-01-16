@@ -96,4 +96,8 @@
         .travel-card > h3 {
             font-size: 1rem;
         }
+
+        footer {
+            padding: 60px 60px;
+        }
 }

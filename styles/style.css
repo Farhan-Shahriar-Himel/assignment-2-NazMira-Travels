@@ -387,3 +387,21 @@ main {
     font-size: 1.4rem;
     font-weight: 800;
 }
+
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px 150px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Rights {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+}
