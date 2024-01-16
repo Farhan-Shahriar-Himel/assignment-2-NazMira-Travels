@@ -31,7 +31,10 @@
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 1.5rem;
 }
+
+/* ---- */
 
 .card-heading {
     color: #131318;
