@@ -181,6 +181,7 @@ main {
     font-weight: 800;
     font-size: 1.6rem;
     color: white;
+    background-size: cover;
 }
 
 .photo:first-child {
