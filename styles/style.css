@@ -33,6 +33,12 @@
     margin-bottom: 20px;
 }
 
+.card-heading {
+    color: #131318;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
 header {
     padding: 3% 10%;
 }
@@ -214,4 +220,77 @@ main {
 .photo:nth-child(7) {
     background-image: url("../Images/Rectangle\ 10.png");
     grid-column: 5/span 4;
+}
+
+.choosing-reason {
+    margin-top: 80px;
+}
+
+.choosing-reason-text {
+    text-align: center;
+}
+
+.choosing-reason-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 50px;
+}
+
+.reason-card {
+    background-color: rgba(251, 181, 99, 0.05);;
+    border: 1px solid rgba(41, 206, 246, 0.05);
+    border-radius: 1rem;
+    align-items: start;
+    padding: 1.4rem;
+}
+
+.reason-card:first-child {
+    grid-column: 1/span 2;
+}
+
+.reason-card:nth-child(2) {
+    grid-column: 3/span 2;
+}
+
+.reason-card:last-child {
+    grid-column: 2/span 2;
+}
+
+.dealsDiscount {
+    margin-top: 80px;
+}
+
+.dealsDiscount-text {
+    text-align: center;
+}
+
+.best-deals {
+    background-image: url("../Images/Group\ 39.png");
+    padding: 3.8rem 3.8rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: right;
+    border-radius: 1rem;
+}
+
+#best-deals-exception {
+    background-image: url("../Images/Group\ 40.png");
+    justify-content: left;
+}
+
+.discount-card {
+    background: rgba(255, 255, 255, 0.80);
+    width: 52%;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    backdrop-filter: blur(2.5px);
+}
+
+.price {
+    color: #FF5400;
+    font-size: 1.2;
+    font-weight: 800;
+    margin-bottom: 2rem;
 }

@@ -41,4 +41,19 @@
             display: flex;
             flex-direction: column;
         }
+        .choosing-reason-card {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .best-deals, #best-deals-exception {
+            justify-content: center;
+            padding: 1rem;
+            padding-top: 10rem;
+        }
+
+        .discount-card {
+            width: 100%;
+        }
 }
